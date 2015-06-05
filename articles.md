@@ -9,4 +9,5 @@
 [每个程序员都应该了解的内存知识](http://blog.jobbole.com/34303/)
 [每个程序员都应该了解的 CPU 高速缓存](http://iptv.sysu.edu.cn/index.php?channel=gdtv-sports)
 [每个程序员都应该了解的“虚拟内存”知识](http://www.oschina.net/translate/what-every-programmer-should-know-about-virtual-memory-part3)
+[ Ubuntu中备份安装的软件列表](http://blog.sina.com.cn/s/blog_66fa66650101aib3.html)
 
