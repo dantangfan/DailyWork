@@ -13,6 +13,10 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 47 6	* * 7	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
 52 6	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
 #
-# add buy dantangfan
+#
 55 6    * * *   root    pip freeze >> /home/hj/git/DailyWork/python-package.txt
 58 6    * * *   root    dpkg --get-selections >> /home/hj/git/DailyWork/install-software.log
+20 10   * * *   hj      export DISPLAY=:0.0; notify-send -i /usr/share/icons/Humanity/emblems/48/emblem-danger.svg "该上美餐点饭了"
+50 14   * * *   hj      export DISPLAY=:0.0; notify-send -i /usr/share/icons/Humanity/emblems/48/emblem-danger.svg "该上美餐点饭了"
+59 23   * * *   hj      cd ~/github/DailyWork; git add .; git commit -m 'daily push'; git push ;
+
