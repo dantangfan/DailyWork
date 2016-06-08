@@ -13,6 +13,10 @@ apt-get install shutter -y
 # 终端增强
 apt-get install terminator -y
 
+# 命令行翻译
+wget https://raw.githubusercontent.com/dantangfan/fanyi/master/fanyi.py
+sudo mv ./fanyi.py /usr/local/bin/fanyi
+sudo chmod +x /usr/local/bin/fanyi
 ############################ 简单开发装备 ######################################
 apt-get install git -y
 apt-get install gcc -y
