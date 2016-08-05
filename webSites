@@ -19,3 +19,5 @@ http://www.valleytalk.org/  ---->I like the way
 http://coolshell.cn/    --->one of the greatest IT knowledge sites in China
 
 http://www.100shuai.com ---->WWE is the game of man
+
+ssserver -p 8989 -k yihaoshijunti -m rc4-md5 -d start
